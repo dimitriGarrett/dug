@@ -4,7 +4,6 @@ This is a small collection of utilities that I use in almost every project, so I
 # Example
 
 ```
-
 #include <iostream>
 #include "dug.h"
 
@@ -26,5 +25,4 @@ int main()
     
     static_assert(std::is_same_v<function::traits<decltype(func)>::arg<1>, int>, "Get argument types from functions!");
 }
-
 ```
